@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(22,196,196,1) 0%, rgba(41,203,207,1) 22%, rgba(14,210,222,1) 33%, rgba(21,164,236,1) 56%, rgba(53,146,255,1) 65%, rgba(94,0,255,1) 100%);
+}
+
+.card-container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 330px;
+    height: 430px;
+    padding: 5px;
+    background-color: rgba(225, 225, 225, .4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.card-img{
+    margin-left:42px;
+
+}
+
+.card-img img{
+    border-radius: 50%;
+}
+
+.card-body{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.btn{
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 185, 93);
+    border:1px solid whitesmoke;
+}
+
+.btn:hover{
+    background-color: rgb(26,156,70);
+}
